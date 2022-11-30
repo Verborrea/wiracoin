@@ -1,5 +1,5 @@
 # Wiracoin - Mining
-Repositorio con las indicaciones para minar la moneda
+Repositorio con las indicaciones para minar la moneda.
 
 ## Enlaces:
 
@@ -47,4 +47,10 @@ En WALLET colocamos nuestra wallet, para propositos de prueba, aquí hay 5 walle
     WXLNFrEPsGCK4mUUy6KmD3wmw1uY1aoe2i
     WPGQDCTedXALJ7WUT4NJpuD6TTceGr1LNM
 
-El proceso se mostrará en pantalla y podremos corroborar los nuevos bloques generados mediante el [Explorer](http://62.210.69.92:3025)
+El proceso se mostrará en pantalla y podremos corroborar los nuevos bloques generados mediante el [Explorer](http://62.210.69.92:3025).
+
+## Trabajo Futuro:
+
+Lo único restante para que el proyecto sea útil sería la creación y administración de wallets a demanda por parte de los usuarios, para esto es necesario un tiempo bastante largo de compilación que culminará el día de mañana. Una vez obtenido el ejecutable, será subido a este repositorio y cualquier persona podrá crear su wallet y ser parte del block-chain ;)
+
+Gracias por su atención.
