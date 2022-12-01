@@ -13,9 +13,9 @@ Para empezar a minar se necesita de un software especial y utlizar software de U
 
 ## 1. Obtención de Address:
 
-El objetivo de minar es generar monedas para poder almacenarlas en una cuenta. Es por eso que lo primero es obtener una address. Para esto y demás operaciones (como realizar y ver nuestras transacciones) debemos descargar la wallet. La nuestra está basada en la [Bitcoin Core](https://bitcoin.org/es/descargar) y es posible descargarla desde este [enlace](colocar_enlaceeeee). Es necesario esperar un tiempo y contar con suficiente espacio para la sincronización de bloques. Como la moneda es reciente, el tiempo a esperar es pequeño. Una vez descargado, obtendremos una ventana parecida a esta:
+El objetivo de minar es generar monedas para poder almacenarlas en una cuenta. Es por eso que lo primero es obtener una address. Para esto y demás operaciones (como realizar y ver nuestras transacciones) debemos descargar la wallet. La nuestra está basada en la [Bitcoin Core](https://bitcoin.org/es/descargar) y es posible descargarla desde este [enlace](https://drive.google.com/file/d/18aNuo2IvEDA37Qe7_vy6MaNuPdgsn4Us/view?usp=sharing). Es necesario esperar un tiempo y contar con suficiente espacio para la sincronización de bloques. Como la moneda es reciente, el tiempo a esperar es pequeño. Una vez descargado, obtendremos una ventana parecida a esta:
 
-[img_1](imgs/img1)
+[img_1](https://github.com/Verborrea/wiracoin/blob/main/imgs/img1.jpg)
 
 ## 2. Instalación de CPU Miner:
 
