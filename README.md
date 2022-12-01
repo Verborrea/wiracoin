@@ -5,7 +5,7 @@ Por: Alan Monroy Bernedo
 ## Enlaces:
 
 * Explorer: http://62.210.69.92:3025/
-* Mining Pool: http://62.210.69.92:8025/getting_started
+* Wallet: https://drive.google.com/file/d/18aNuo2IvEDA37Qe7_vy6MaNuPdgsn4Us/view?usp=sharing
 
 ## Indicaciones:
 
