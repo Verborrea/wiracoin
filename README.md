@@ -48,7 +48,7 @@ Y procedemos a su instalación:
     ./configure CFLAGS="-O3"
     make
 
-## Minado usando CPU Miner:
+## 3. Minado usando CPU Miner:
 
 Una vez que contamos con el programa, solamente tenenmos que correr el siguiente comando para minar:
 
