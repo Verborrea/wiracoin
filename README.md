@@ -27,9 +27,13 @@ Una vez ahí, ya hemos obtenido nuestra dirección. Toda moneda minada con esta 
 
 Para empezar a minar se necesita de un hardware o software especializado. En este caso utilizaremos CPU Miner.
 
-Windows baneó la mayoría de software para minar, así que si no se cuenta con una computadora basada en UNIX, podemos utilizar alguna tecnlogía de máquina virtual como Docker o [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+### Windows
 
-Primero hay que instalar algunas dependencias con el siguiente comando:
+Windows baneó la mayoría de software para minar, así que si no se cuenta con una computadora basada en UNIX, podemos utilizar alguna tecnlogía de máquina virtual como Docker o [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Para el software que presentamos, es recomendada la versión de [Ubuntu 18.04](https://releases.ubuntu.com/18.04/) utlizando la **server install image** para mejor rendimiento.
+
+### Linux
+
+Una vez nos encontremos en nuestra terminal de linux, primero tendremos que instalar algunas dependencias con el siguiente comando:
 
     sudo apt install libcurl4-openssl-dev libncurses5-dev pkg-config automake yasm
 
@@ -44,7 +48,7 @@ Y procedemos a su instalación:
     ./configure CFLAGS="-O3"
     make
 
-### Minado:
+## Minado usando CPU Miner:
 
 Una vez que contamos con el programa, solamente tenenmos que correr el siguiente comando para minar:
 
@@ -56,7 +60,7 @@ Para establecer la DIFICULTAD, podemos elegir cualquiera de los 3 URLS definidos
 * **Diff  32:** `stratum+tcp://62.210.69.92:3050`
 * **Diff 256:** `stratum+tcp://62.210.69.92:3275`
 
-En WALLET colocamos nuestra wallet, para propositos de prueba, aquí hay 5 wallets de ejemplo:
+En WALLET colocamos la address previamente generada. Sin embargo, para propositos de prueba, aquí se muestran 5 wallets de ejemplo:
 
     WmCLABx2BkLXNqUSoodvK7UdpX4vCJw9Cg
     WPzeN6HhkxGojsn1mkJik42mqxQR13FeVu
@@ -64,4 +68,4 @@ En WALLET colocamos nuestra wallet, para propositos de prueba, aquí hay 5 walle
     WXLNFrEPsGCK4mUUy6KmD3wmw1uY1aoe2i
     WPGQDCTedXALJ7WUT4NJpuD6TTceGr1LNM
 
-El proceso se mostrará en pantalla y podremos corroborar los nuevos bloques generados mediante el [Explorer](http://62.210.69.92:3025).
+El proceso se mostrará en pantalla y podremos corroborar los nuevos bloques generados mediante nuestro [Explorer](http://62.210.69.92:3025).
