@@ -1,5 +1,6 @@
 # Wiracoin - Mining
 Repositorio con las indicaciones para minar la moneda.
+Por: Alan Monroy Bernedo
 
 ## Enlaces:
 
@@ -10,7 +11,13 @@ Repositorio con las indicaciones para minar la moneda.
 
 Para empezar a minar se necesita de un software especial y utlizar software de UNIX debido a que Windows baneó la mayoría de software para minar. En este caso utilizaremos CPU Miner.
 
-### Instalación de CPU Miner:
+## 1. Obtención de Address:
+
+El objetivo de minar es generar monedas para poder almacenarlas en una cuenta. Es por eso que lo primero es obtener una address. Para esto y demás operaciones (como realizar y ver nuestras transacciones) debemos descargar la wallet. La nuestra está basada en la [Bitcoin Core](https://bitcoin.org/es/descargar) y es posible descargarla desde este [enlace](colocar_enlaceeeee). Es necesario esperar un tiempo y contar con suficiente espacio para la sincronización de bloques. Como la moneda es reciente, el tiempo a esperar es pequeño. Una vez descargado, obtendremos una ventana parecida a esta:
+
+[img_1](imgs/img1)
+
+## 2. Instalación de CPU Miner:
 
 Primero hay que instalar algunas dependencias con el siguiente comando:
 
@@ -26,7 +33,7 @@ Y procedemos a su instalación:
     ./autogen.sh
     ./configure CFLAGS="-O3"
     make
-    
+
 ### Minado:
 
 Una vez que contamos con el programa, solamente tenenmos que correr el siguiente comando para minar:
@@ -48,9 +55,3 @@ En WALLET colocamos nuestra wallet, para propositos de prueba, aquí hay 5 walle
     WPGQDCTedXALJ7WUT4NJpuD6TTceGr1LNM
 
 El proceso se mostrará en pantalla y podremos corroborar los nuevos bloques generados mediante el [Explorer](http://62.210.69.92:3025).
-
-## Trabajo Futuro:
-
-Lo único restante para que el proyecto sea útil sería la creación y administración de wallets a demanda por parte de los usuarios, para esto es necesario un tiempo bastante largo de compilación que culminará el día de mañana. Una vez obtenido el ejecutable, será subido a este repositorio y cualquier persona podrá crear su wallet y ser parte del block-chain ;)
-
-Gracias por su atención.
